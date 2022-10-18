@@ -5,9 +5,9 @@ import { FaGithubSquare } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-      <div className="flex w-full justify-center items-center text-md bg-gray-200 p-5 ">
+      <div className="flex w-full justify-center items-center text-md p-5 bg-secondary-dark text-white">
         Created With <BsFillHeartFill className="mx-2 text-red-500" /> by
-        @MSOBKYY
+        @MSOBKYY{" "}
         <a href="https://github.com/msobkyy">
           <FaGithubSquare size={30} className="mx-4 " />
         </a>

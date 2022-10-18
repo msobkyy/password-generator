@@ -14,7 +14,7 @@ const Checkbox = React.forwardRef(({ checked, disabled, children }, ref) => {
       />
       <label
         htmlFor="link-checkbox"
-        className="ml-2 text-sm font-medium text-gray-900"
+        className="ml-2 text-sm font-medium text-gray-300"
       >
         {children}
       </label>
